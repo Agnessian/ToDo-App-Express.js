@@ -14,11 +14,9 @@ Before you can run this project locally, ensure you have the following installed
 ### Installation
 1. Clone this repository to your local machine:
    git clone https://github.com/Agnessian/ToDo-App-Express.js.git
-2. Navigate to the project directory:
-    cd todolist-api
-3. Install dependencies:
+2. Install dependencies:
     npm install
-4. Start the application locally:
+3. Start the application locally:
     npm start
 The API will be running at http://localhost:3000.
 
@@ -60,9 +58,6 @@ Copy code
     "title": "New Todo",
     "description": "This is a new todo item"
 }
-
-Hosted API Link:
-Link to Deployed API
 
 - Technologies Used
     - Node.js
