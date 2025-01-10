@@ -48,21 +48,16 @@ The API will be running at http://localhost:3000.
         -Parameters: title (required) - The title to search for.
         -Response: Returns an array of todos that match the title, 400 if empty, and 404 if not found.
 
-Example Requests:
-GET /todos
-- curl http://localhost:3000/todos
-POST /todos: Example request body:
-json
-Copy code
-{
-    "title": "New Todo",
-    "description": "This is a new todo item"
-}
+- Example Requests:
+    - https://documenter.getpostman.com/view/40906629/2sAYQWJDQz
+
+- Hosted API Link
+    - https://to-do-list-express-pi.vercel.app/
 
 - Technologies Used
     - Node.js
     - Express.js
-    - In-memory data storage (or JSON file if applicable)
+    - In-memory data storage
 
 - Contributing
     - If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.

@@ -88,10 +88,13 @@ app.delete("/todos/:id", (req, res) => {
     let index = todos.findIndex(todo => todo.id == req.params.id);
     if (index === -1) {
         return res.status(404).json({ error: "Todo not found." });
+    }else{
+        todos.splice(index, 1);
+        res.status(200).json({Sucess: "Todo Deleted"});
     }
-    todos.splice(index, 1);
-    res.status(204).end();
+   
 });
+
 // Accessing `/todos/search` without a parameter
 app.get('/todos/search', (req, res) => {
     res.status(400).json({ error: "title required." });
